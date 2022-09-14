@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', function (req, res) {
- res.send('hello, express, welcome to index under folder routes')
+ res.send(`Bienvenue dans l'api rest des planetes`)
 })
 
 module.exports = router
