@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express()
 const indexRouter = require('./routes/index');
-const userRouter = require('./routes/user');
+const planetesRouter = require('./routes/pl');
 
 app.use('/', indexRouter);
-app.use('/users', userRouter);
+app.use('/planetes', planetesRouter);
 
 app.listen(7500);
