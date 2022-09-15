@@ -6,7 +6,7 @@
     "multer": "^1.4.5-lts.1",
     "node": "^18.9.0",
     "nodemon": "^2.0.19",
-    "sqlite3": "^5.0.11"
+    "sqlite3": "^5.1.0"
   },
   "name": "nodejs_planete_api",
   "description": "**But du projet** : Créer une **api rest** avec le framework **express** , **node.js** et **sqlite**.",
